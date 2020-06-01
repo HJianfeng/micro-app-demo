@@ -1,0 +1,65 @@
+body, ul, li, ol, p, span, i, input, img, textarea, button, h1, h2, h3, h4, h5, h6 {
+  padding: 0;
+  margin: 0;
+  font-weight: normal;
+}
+body {
+  line-height: 1.5;
+}
+i, address {
+  font-style: normal;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+input, select, textarea {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+input:focus, textarea:focus, button {
+  outline: none;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+button, input {
+  border: none;
+}
+
+/* common */
+input {
+  font-size: 28px;
+}
+
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+  overflow: hidden;
+}
+
+.clearfix {
+  zoom: 1;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
